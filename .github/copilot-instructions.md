@@ -1,0 +1,4 @@
+- The tech stack for this project includes Node.js, Express, AWS Lambda, AWS SDK, and Serverless Framework.
+- The project is about building a document AI service that can extract information from documents using AWS Textract and provide an API for clients to interact with.
+- The project structure includes a main application file (app.ts), configuration files for Swagger, routes for identity and onboarding, middleware for error handling, and a package.json file that defines scripts for building, deploying, and testing the application.
+- The code style for this project follows standard TypeScript conventions, with a focus on readability and maintainability. Private fields in classes should start with an underscore (\_). The project also uses Zod for schema validation and OpenAPI for API documentation. The testing framework used is Jest, and there are scripts defined for running both unit tests and end-to-end tests.
