@@ -12,6 +12,7 @@ provider:
         - Effect: Allow
           Action:
             - textract:AnalyzeID
+            - textract:DetectDocumentText
           Resource: "*"
         - Effect: Allow
           Action:
